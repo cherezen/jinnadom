@@ -261,7 +261,12 @@ body {
     margin-right: 30px;
     border-radius: 50%;
     background: url('../img/vk60.png') center center / cover no-repeat;
-    
+}
+
+.footer__social_1 a {
+    display: block;
+    width: 100%;
+    height: 100%;
 }
 
 .footer__social_2 {
@@ -272,17 +277,29 @@ body {
     background: url('../img/viber60.png') center center / cover no-repeat;
 }
 
+.footer__social_2 a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
 .footer__social_3 {
     width: 60px;
     height: 60px;
     border-radius: 50%;
     background: url('../img/wa60.png') center center / cover no-repeat;
 }
+
+.footer__social_3 a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
 .footer__phone a {
     text-decoration: none;
     font-size: 40px;
 }
-
 
 @media(max-width: 1300px) {
     .main__image_1 {
